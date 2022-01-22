@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100;1,600&family=Raleway:ital,wght@0,200;1,100;1,200&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -14,7 +16,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .back-to-top {
@@ -53,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #e6dddd;
+  background: #08080857;
 }
 
 #preloader:before {
@@ -61,9 +63,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #295991;
-  border-top-color: #ffffff;
-  border-bottom-color: #295991;
+  border: 6px solid #910a5b;
+  border-top-color: #00000000;
+  border-bottom-color: #910a5b;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -99,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: #79074b;
+  background: #800d52;
 }
 #header .logo {
   font-size: 32px;
@@ -109,12 +111,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
-#header .logo a {
-  color: rgb(221, 213, 213);
-}
-#header .logo a span {
-  color: #a31f71;
 }
 #header .logo img {
   max-height: 40px;
@@ -232,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.425);
+  background: rgba(0, 0, 0, 0.158);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -253,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #C32684;
+  color: #df158e;
 }
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
@@ -263,14 +259,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid #6392C9;
+  border: 1px solid #ffffff;
   height: 100%;
   text-align: center;
 }
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color:#6392C9;
+  color:#ffffff;
 }
 #hero .icon-box h3 {
   font-weight: 700;
@@ -282,13 +278,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .icon-box h3 a {
   color: #fff;
+  letter-spacing: 1.2px;
+  font-weight: lighter;
   transition: ease-in-out 0.3s;
 }
 #hero .icon-box h3 a:hover {
-  color: #196bc9;
+  color: #a00964;
 }
 #hero .icon-box:hover {
-  border-color: #2e9df8;
+  border-color: #a00964;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -735,6 +733,10 @@ background: #01e201;
   object-fit: cover;
 }
 .tam-link {
-  font-size: 18px;
+  font-size: 14px;
+}
+.titulo-h1 {
+  font-size: 8.5rem;
+  font-weight: lighter;
 }
 
