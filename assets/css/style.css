@@ -550,6 +550,46 @@ section {
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
+.breadcrumbs {
+  padding: 15px 0;
+  background: whitesmoke;
+  min-height: 40px;
+  margin-top: 74px;
+}
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #2f2f2f;
+  content: "/";
+}
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 68px;
+  }
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
 #footer {
   background:#5e0c3d;
   padding: 0 0 30px 0;
@@ -669,13 +709,11 @@ section {
   bottom: 4rem;
   width: 3rem;
   height: 3rem;
-  -webkit-box-shadow: 0 0.1rem 0.6rem #2069bd;
-  box-shadow: 0 0.1rem 0.6rem #106bd4;
   transition: 2s;
 }
 #link-topo:hover {
 color: #ffffff;
-background: #08611b; 
+background: #01e201; 
 }
 ::-webkit-scrollbar-track {
   background: #ffffff25; 
@@ -695,5 +733,8 @@ background: #08611b;
 .img-logo {
   width: 120px;
   object-fit: cover;
+}
+.tam-link {
+  font-size: 18px;
 }
 
