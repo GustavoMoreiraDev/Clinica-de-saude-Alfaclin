@@ -720,7 +720,7 @@ background: #01e201;
 ::-webkit-scrollbar {
   width: 8px;
   height: 100px;
-  background:  rgba(255, 255, 255, 0);
+  background:  rgba(3, 1, 1, 0);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -738,5 +738,35 @@ background: #01e201;
 .titulo-h1 {
   font-size: 8.5rem;
   font-weight: lighter;
+}
+.lgpd {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  background-color: #1e2a41;
+  color: #FFF;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lgpd a {
+  color: rgb(31, 108, 223);
+}
+.lgpd button {
+  background-color: #01e201;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.privacidade-wrapper h2,h3 {
+  text-align: center;
+}
+.privacidade-wrapper p {
+  text-align: center;
+  margin: 10px;
 }
 
