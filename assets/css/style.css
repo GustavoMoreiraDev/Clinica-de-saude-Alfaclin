@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #6392C9;
+  color: #67aaf7;
   text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #6392C9;
+  background: #5ea1ec;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #295991;
+  background: #388ceb;
 }
 .back-to-top:hover i {
   color: #e2e8ee;
@@ -63,9 +63,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #910a5b;
+  border: 6px solid #0f61c0;
   border-top-color: #00000000;
-  border-bottom-color: #910a5b;
+  border-bottom-color: #0f61c0;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -99,9 +99,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: #ececec;
+
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: #800d52;
+  
 }
 #header .logo {
   font-size: 32px;
@@ -109,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 2px; 
   text-transform: uppercase;
 }
 #header .logo img {
@@ -141,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -151,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #6392C9;
+  color: #0e66be;
 }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -203,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #79074b;
+  background-color: #0f5481;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -214,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #eee0e0;
-  background-color: #a8136d;
+  background-color: #12659c;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -222,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/background.png") top center;
+  background: url("../img/alfaclin.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -249,24 +251,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #df158e;
+  color:#529aec;
 }
 #hero h2 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(253, 253, 253, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid #ffffff;
+  border: 1px solid #0063d4;
+  background-color: rgb(231, 222, 222);
+  border-radius: 10px;
   height: 100%;
   text-align: center;
 }
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color:#ffffff;
+  color:rgb(105, 103, 103);
 }
 #hero .icon-box h3 {
   font-weight: 700;
@@ -277,16 +281,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
 }
 #hero .icon-box h3 a {
-  color: #fff;
+  color: black;
   letter-spacing: 1.2px;
   font-weight: lighter;
   transition: ease-in-out 0.3s;
 }
 #hero .icon-box h3 a:hover {
-  color: #a00964;
+  color: #0d79df;
 }
 #hero .icon-box:hover {
-  border-color: #a00964;
+  border-color: #2304cf;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -389,7 +393,7 @@ section {
   background-color: #ddd;
 }
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #C32684;
+  background-color: #6392C9;
 }
 .features {
   padding-top: 20px;
@@ -405,7 +409,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #C32684;
+  color: #6392C9;
 }
 .features .icon-box p {
   font-size: 15px;
@@ -430,7 +434,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #C32684;
+  background: #6392C9;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -453,7 +457,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .services .icon-box h4 a:hover {
-  color:#C32684;
+  color:#6392C9;
 }
 .services .icon-box p {
   line-height: 24px;
@@ -480,14 +484,14 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #db168c;
+  border: 1px solid #6392C9;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #C32684;
+  background-color: #6392C9;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+  box-shadow: 0px 0 30px rgba(38, 91, 207, 0.08);
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -521,7 +525,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  background: #C32684;
+  background: #6392C9;
   color: #f5f5f5;
   float: left;
   width: 44px;
@@ -550,7 +554,8 @@ section {
 }
 .breadcrumbs {
   padding: 15px 0;
-  background: whitesmoke;
+  background:#6392C9;
+  color: #ffffff;
   min-height: 40px;
   margin-top: 74px;
 }
@@ -589,13 +594,16 @@ section {
   }
 }
 #footer {
-  background:#5e0c3d;
+  background: #eeecec;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: black;
   font-size: 14px;
 }
+.credits p{
+  color: black;
+}
 #footer .footer-top {
-  background: #79074b;
+  background: #eceef0;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -617,7 +625,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: black;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -641,7 +649,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: black;
   position: relative;
   padding-bottom: 12px;
 }
@@ -668,7 +676,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -713,21 +721,6 @@ section {
 color: #ffffff;
 background: #01e201; 
 }
-::-webkit-scrollbar-track {
-  background: #ffffff25; 
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  height: 100px;
-  background:  rgba(3, 1, 1, 0);
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #C32684;
-  height: 350px;
-  border-radius: 5px;
-}
 .img-logo {
   width: 120px;
   object-fit: cover;
@@ -756,7 +749,7 @@ background: #01e201;
   color: rgb(31, 108, 223);
 }
 .lgpd button {
-  background-color: #01e201;
+  background-color:  rgb(31, 153, 223);
   border: 0;
   color: #fff;
   cursor: pointer;
