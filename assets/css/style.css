@@ -769,4 +769,16 @@ background: #01e201;
   text-align: center;
   margin: 10px;
 }
+.lgpd-left {
+  color: black;
+}
+.lgpd {
+  background-color: #ffffff;
+}
 
+@media screen and (max-width: 550px) {
+  
+  .lgpd-left {
+    font-size: 10px;
+  }
+}
